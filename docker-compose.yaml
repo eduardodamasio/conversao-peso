@@ -1,0 +1,12 @@
+version: '3.8'
+     
+      
+
+
+services:
+  conversao-temperatura:
+    image: eduardodamasio/conversao-peso:v1 
+    ports:
+      - 80:80
+      
+    
